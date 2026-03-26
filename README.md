@@ -12,7 +12,8 @@ I chose these two examples to reverse engineer and create my own work using thes
 
 ## Object Masking and Endless Text
 
-I started this my dissecting each element in the references file.
+### Object Masking
+I started this my dissecting each element in the references file. How did they make a mask? Is there anything special I need to do to keep the mask while its spinning? I started with creating a 3D star that I know I want to use as my mask. Once I masked this object with my chosen chicago images, the 3D aspect depth of it seemed to not be visible anymore. Even though the depth was gone, I was still able to affect the x, y, and z axis to make the star move in a way that feels 3D as it diplays as more of a 2D shape. Adding movent proved to be very simple, but in order to make the star looking like its endlessly spinning in one direction while changing positions and shape, I need to create 3 states for it to change to. The first and last state were the exact same but this allowed the star to go back to that first state while keeping the same direction of rotation.
 
 
 
