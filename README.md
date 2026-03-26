@@ -13,3 +13,13 @@ I chose these two examples to reverse engineer and create my own work using thes
 ## Object Masking and Endless Text
 
 I started this my dissecting each element in the references file.
+
+
+
+
+### Endless Text
+
+For the Chicago text that endlessly scrolls in the background of the frame, it was a much easier process than I thought it was going to be. To make the endless scroll happen, you create the text who want to scroll 3 times, "Chicago Chicago Chicago". Create your Base State and a State events in a way where the first Chicago in the Base State and the last Chicago in the State are perfectly aligned with each other. If you make the Event an endless linear transition from Base State to State, this makes the text look endless as it ends and starts at the same spot.
+
+<img width="1144" height="214" alt="Screenshot 2026-03-24 at 2 27 48 PM" src="https://github.com/user-attachments/assets/6e0b0575-94bb-42bf-abab-7049f3152571" />
+<img width="1144" height="214" alt="Screenshot 2026-03-24 at 2 28 12 PM" src="https://github.com/user-attachments/assets/67448865-70ad-47fd-9d23-b56cb7599605" />
