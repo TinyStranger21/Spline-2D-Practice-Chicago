@@ -17,6 +17,7 @@ I started this my dissecting each element in the references file. How did they m
 
 Adding movent proved to be very simple, but in order to make the star looking like its endlessly spinning in one direction while changing positions and shape, I need to create 3 states for it to change to. The first and last state were the exact same but this allowed the star to go back to that first state while keeping the same direction of rotation.
 
+As you can see in the video I attached, the star goes through this movement while the images its masking change. I wanted to add this extra element of the design to show the different states of the Chicago city. The images switch fully after 5 seconds and then switch back at 10 seconds, making two passes with the star a complete cycle.
 
 ### Endless Text
 
@@ -28,4 +29,11 @@ For the Chicago text that endlessly scrolls in the background of the frame, it w
 
 ## 3D Music is Liquid Glass
 
-The
+The last thing I wanted to add to this project was the liquid glass object. I like the idea of a 3D object that affects the visuals of a 2D graphic and I think liquid glass does this well. I started with selecting a 3D object that I wanted to turn into liquid glass. I decided to do a music note because while I was in Chicago there was an endless amount of sounds but a lot of great live music. This felt very important to my experience in Chicago and I wanted to implement it into my piece.
+
+Make the music note into a liquid glass effect was really easy on Spline. Spline has a lot of presets for materials, including a few glass presets. I chose glass 5 to use because it felt like the most see through and bright, fitting with the overall scene. There was a lot of little tweaks I did with the material settings to get it to look how I wanted. Spline provides a lot of different settings to change the lighting, texture, and other physical aspects of objects, making it easier to make the object look the way you want it.
+
+<img width="1654" height="1520" alt="image" src="https://github.com/user-attachments/assets/62e68bf3-c005-4e5e-a3c1-cd09a4662bf3" /><img width="1144" height="1480" alt="image" src="https://github.com/user-attachments/assets/461bbe4b-eac6-4000-bbdb-644b7a4e7529" />
+
+Once I got the physical look of the glass music note, I worked on giving it motion. I really wanted it to feel like it is bouncing on the edges of the frame, but in a way where its rotation is based on how the music note hits the edge of the frame. In order to do this, I made 
+
