@@ -13,9 +13,9 @@ I chose these two examples to reverse engineer and create my own work using thes
 ## Object Masking and Endless Text
 
 ### Object Masking
-I started this my dissecting each element in the references file. How did they make a mask? Is there anything special I need to do to keep the mask while its spinning? I started with creating a 3D star that I know I want to use as my mask. Once I masked this object with my chosen chicago images, the 3D aspect depth of it seemed to not be visible anymore. Even though the depth was gone, I was still able to affect the x, y, and z axis to make the star move in a way that feels 3D as it diplays as more of a 2D shape. Adding movent proved to be very simple, but in order to make the star looking like its endlessly spinning in one direction while changing positions and shape, I need to create 3 states for it to change to. The first and last state were the exact same but this allowed the star to go back to that first state while keeping the same direction of rotation.
+I started this my dissecting each element in the references file. How did they make a mask? Is there anything special I need to do to keep the mask while its spinning? I started with creating a 3D star that I know I want to use as my mask. Once I masked this object with my chosen chicago images, the 3D aspect depth of it seemed to not be visible anymore. Even though the depth was gone, I was still able to affect the x, y, and z axis to make the star move in a way that feels 3D as it diplays as more of a 2D shape. 
 
-
+Adding movent proved to be very simple, but in order to make the star looking like its endlessly spinning in one direction while changing positions and shape, I need to create 3 states for it to change to. The first and last state were the exact same but this allowed the star to go back to that first state while keeping the same direction of rotation.
 
 
 ### Endless Text
@@ -23,6 +23,9 @@ I started this my dissecting each element in the references file. How did they m
 For the Chicago text that endlessly scrolls in the background of the frame, it was a much easier process than I thought it was going to be. To make the endless scroll happen, you create the text who want to scroll 3 times, "Chicago Chicago Chicago". Create your Base State and a State events in a way where the first Chicago in the Base State and the last Chicago in the State are perfectly aligned with each other. If you make the Event an endless linear transition from Base State to State, this makes the text look endless as it ends and starts at the same spot.
 
 <img width="1144" height="214" alt="Screenshot 2026-03-24 at 2 27 48 PM" src="https://github.com/user-attachments/assets/6e0b0575-94bb-42bf-abab-7049f3152571" />
-<img width="1144" height="214" alt="Screenshot 2026-03-24 at 2 28 12 PM" src="https://github.com/user-attachments/assets/67448865-70ad-47fd-9d23-b56cb7599605" />
 <img width="2008" height="428" alt="image" src="https://github.com/user-attachments/assets/cf8f8984-287d-4dba-81ee-0a4ca8a07e23" />
 
+
+## 3D Music is Liquid Glass
+
+The
