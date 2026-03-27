@@ -17,9 +17,15 @@ I started this my dissecting each element in the references file. How did they m
 
 Adding movent proved to be very simple, but in order to make the star looking like its endlessly spinning in one direction while changing positions and shape, I need to create 3 states for it to change to. The first and last state were the exact same but this allowed the star to go back to that first state while keeping the same direction of rotation.
 
+<img width="1401" height="625" alt="image" src="https://github.com/user-attachments/assets/f8d32aa1-f85f-4a13-8d7d-a88156a35cdb" />
+<img width="1401" height="625" alt="image" src="https://github.com/user-attachments/assets/8f834d87-0819-430c-8d44-46d9d9255ceb" />
+<img width="1401" height="625" alt="image" src="https://github.com/user-attachments/assets/e70f7233-4e06-4bff-b99b-6943da30f43f" />
+
+
 As you can see in the video I attached, the star goes through this movement while the images its masking change. I wanted to add this extra element of the design to show the different states of the Chicago city. The images switch fully after 5 seconds and then switch back at 10 seconds, making two passes with the star a complete cycle.
 
-### Endless Text
+<img width="2232" height="1244" alt="image" src="https://github.com/user-attachments/assets/2a734940-94ae-402a-b08d-8ecffec53b77" />
+
 
 For the Chicago text that endlessly scrolls in the background of the frame, it was a much easier process than I thought it was going to be. To make the endless scroll happen, you create the text who want to scroll 3 times, "Chicago Chicago Chicago". Create your Base State and a State events in a way where the first Chicago in the Base State and the last Chicago in the State are perfectly aligned with each other. If you make the Event an endless linear transition from Base State to State, this makes the text look endless as it ends and starts at the same spot.
 
